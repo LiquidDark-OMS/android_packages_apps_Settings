@@ -110,6 +110,17 @@
                     android:targetPackage="com.lovejoy777.rroandlayersmanager"
                     android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
         </dashboard-tile>
+        
+        <!-- Substratum -->
+        <dashboard-tile
+                android:id="@+id/substratum"
+                android:icon="@drawable/ic_settings_substratum"
+                android:title="@string/substratum_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="projekt.substratum"
+                    android:targetClass="projekt.substratum.LaunchActivity" />
+        </dashboard-tile>        
 
         <!-- Kernel Auditor App -->
         <dashboard-tile
@@ -140,17 +151,6 @@
             android:id="@+id/device_section"
             android:key="@string/category_key_device"
             android:title="@string/header_category_device" >
-
-        <!-- Substratum -->
-        <dashboard-tile
-                android:id="@+id/substratum"
-                android:icon="@drawable/ic_settings_substratum"
-                android:title="@string/substratum_title">
-                <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="projekt.substratum"
-                    android:targetClass="projekt.substratum.LaunchActivity" />
-        </dashboard-tile>
 
         <!-- Home -->
         <dashboard-tile
