@@ -118,7 +118,7 @@
                 android:title="@string/performance_settings">
                 <intent
                     android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.grarak.kerneladiutor"
+                    android:targetPackage="com.kerneladiutor.mod"
                     android:targetClass="com.grarak.kerneladiutor.MainActivity" />
         </dashboard-tile>
 
